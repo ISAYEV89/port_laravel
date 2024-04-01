@@ -14,8 +14,17 @@
 
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-       <div class="body">
-            <h1>asda das</h1>
+
+       <div class="container">
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="logo-block">
+                <img class="logo-img" src="{{URL::asset('/image/logo.svg')}}" alt="logo_isayev_az">
+                <p class="logo-text">ISAYEV.AZ</p>
+            </div>
+            </div>
+        </div>
        </div>
+
     </body>
 </html>
